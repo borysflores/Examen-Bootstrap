@@ -10,7 +10,7 @@
 }
 
 .redes-sociales {
-  margin: auto;
+  float: right !important;
 }
 
 .img-social {
@@ -24,7 +24,6 @@
 
 .menu {
   background-color: #0059bc;
-}
 }
 
 

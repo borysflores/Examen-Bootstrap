@@ -11,11 +11,16 @@
 <body>
     <section class="jumbotron">
         <div class="container">
-            <img class="logo-img" src="img/logo-mix.jpg"/>
-            <div class="redes-sociales col-lg-4 col-md-6 col-sm-7">
-                <img class="img-rounded img-social" src="img/fb.png"/>
-                <img class="img-rounded img-social" src="img/ig.png"/>
-                <img class="img-rounded img-social" src="img/tt.png"/>
+            <div class="row">
+                <div class="col-auto mr-auto">
+                <img class="logo-img" src="img/logo-mix.jpg"/>
+                </div>
+                <div class="redes-sociales col-auto">
+                    <img class="img-rounded img-social" src="img/fb.png"/>
+                    <img class="img-rounded img-social" src="img/ig.png"/>
+                    <img class="img-rounded img-social" src="img/tt.png"/>
+                    <img class="img-rounded img-social" src="img/in.png"/>
+                </div>
             </div>
         </div>
     </section>
@@ -65,8 +70,8 @@
                     <br>
                     <form>
                         <div class="form-group">
-                            <label for="comentario">Escribir comentario...</label>
-                            <textarea class="form-control" id="comentario" rows="3"></textarea>
+                            <label for="comentario1">Comentar:</label>
+                            <textarea class="form-control" id="comentario1" rows="3" placeholder="Escribir comentario..."></textarea>
                         </div>
                         <button type="button" class="btn btn-secondary">Enviar</button>
                     </form>
@@ -88,15 +93,15 @@
                     <br>
                     <form>
                         <div class="form-group">
-                            <label for="comentario">Escribir comentario...</label>
-                            <textarea class="form-control" id="comentario" rows="3"></textarea>
+                            <label for="comentario2">Comentar:</label>
+                            <textarea class="form-control" id="comentario2" rows="3" placeholder="Escribir comentario..."></textarea>
                         </div>
                         <button type="button" class="btn btn-secondary">Enviar</button>
                     </form>
                 </div>
             </div>
-            <div class="col col-lg-4">
-                <form class="form-inline my-2 my-lg-0">
+            <div class="col col-lg-4 hidden-sm-down">
+                <form class="form-inline">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
