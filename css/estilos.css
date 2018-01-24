@@ -1,0 +1,53 @@
+.jumbotron {
+  background-color: rgba(8, 53, 75, 9.5);
+  min-height: 10%;
+  border: none; !important;
+  margin-bottom: 0;
+}
+
+.logo-img {
+  width: 150px;
+}
+
+.redes-sociales {
+  margin: auto;
+}
+
+.img-social {
+  width: 30px;
+  height: 30px;
+}
+
+.img-banda {
+  width: 100%;
+}
+
+.menu {
+  background-color: #0059bc;
+}
+}
+
+
+@media (max-width: 770px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  .titulo-text {
+    font-size: 15px;
+  }
+
+  .right-column {
+    display: none;
+  }
+
+  .movies-row {
+    padding-left: 0px;
+    padding-right: 0px;
+    min-height: 400px;
+  }
+
+  .container-fluid{
+    margin-top: 60px;
+  }
+
